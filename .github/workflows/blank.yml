@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>JEE Main &gt; Physics &gt; Laws of Motion</h1>
+            <button class="start-timer">Start Timer</button>
+        </div>
+        <div class="question">
+            <p>A light unstretchable string passing over a smooth light pulley connects two blocks of masses <i>m<sub>1</sub></i> and <i>m<sub>2</sub></i>. If the acceleration of the system is <i>g/8</i>, then the ratio of the masses <i>m<sub>2</sub>/m<sub>1</sub></i> is :</p>
+        </div>
+        <div class="options">
+            <div class="option">
+                <input type="radio" id="optionA" name="answer" value="A">
+                <label for="optionA">A) 8 : 1</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="optionB" name="answer" value="B">
+                <label for="optionB">B) 5 : 3</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="optionC" name="answer" value="C">
+                <label for="optionC">C) 4 : 3</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="optionD" name="answer" value="D">
+                <label for="optionD">D) 9 : 7</label>
+            </div>
+        </div>
+        <button class="check-answer">Check Answer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
